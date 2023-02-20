@@ -4,6 +4,7 @@
   "description": "Kasa API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/GrimonprezAlexis/Kasa_api/issues"
   },
-  "homepage": "https://github.com/GrimonprezAlexis/Kasa_api#readme"
+  "homepage": "https://github.com/GrimonprezAlexis/Kasa_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
 }
